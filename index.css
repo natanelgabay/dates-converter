@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  margin: 20px 20px;
+  padding: 10px 20px;
+  background-color: #408ec6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #286da8;
+}
+
+#convertedHebrewDatesTable {
+  margin-top: 40px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#convertedHebrewDatesTable th, #convertedHebrewDatesTable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+#convertedGregorianDatesTable {
+  margin-top: 40px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#convertedGregorianDatesTable th, #convertedGregorianDatesTable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conversion-form {
+  width: 45%;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.conversion-form label {
+  display: block;
+}
+
+.conversion-form select, .conversion-form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
